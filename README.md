@@ -14,9 +14,3 @@ O script resolve um problema comum em bases de dados governamentais: a mistura d
 - **Filtragem de Dados:** Remoção automática de registros de Bancadas, Comissões e Relatorias do ranking.
 - **Agrupamento Dinâmico:** Soma dos valores empenhados por autor individual.
 - **Formatação de Moeda:** Exibição dos resultados no padrão brasileiro (R$ 0.000,00).
-
-## 📋 Como Executar
-1. Certifique-se de ter o Python e o Pandas instalados.
-2. Clone o repositório:
-   ```bash
-   git clone [https://github.com/lfelipeos/analise-emendas-parlamentares.git](https://github.com/lfelipeos/analise-emendas-parlamentares.git)
