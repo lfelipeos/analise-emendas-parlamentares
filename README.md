@@ -11,13 +11,15 @@ O script resolve um problema comum em bases de dados governamentais: a mistura d
 * **Filtros de String (RegEx)**: Para limpeza de dados institucionais.
 
 ## Funcionalidades
-- **Filtragem de Dados:** Remoção automática de registros de Bancadas, Comissões e Relatorias do ranking.
 - **Agrupamento Dinâmico:** Soma dos valores empenhados por autor individual.
 - **Formatação de Moeda:** Exibição dos resultados no padrão brasileiro (R$ 0.000,00).
+- **Categorização Inteligente:** Implementação de lógica para identificar o `Tipo de Autor` (Individual, Bancada ou Relator) a partir dos nomes dos parlamentares.
+- **Filtro Temporal:** O dataset foi restringido ao período de **2019 a 2025**, focando na análise de dados mais recentes.
 
 ## Visualização de Dados (Power BI)
-
-Com os dados tratados pelo script Python, foi desenvolvido um dashboard interativo para análise das emendas.
+- **Análise Dinâmica:** Adição de segmentação de dados (Slicers) por `Tipo de Autor`, permitindo alternar entre visões de parlamentares individuais e bancadas estaduais.
+- **Filtros de Nível Visual:** Configuração de gráficos específicos para evitar a mistura de categorias, melhorando a clareza dos rankings.
+- **Interface Otimizada:** Utilização de botões (Tile Slicers) para uma navegação mais intuitiva.
 
 ### Principais Funcionalidades:
 - **Medidas DAX:** Criação de cálculos para Total Empenhado, Quantidade de Parlamentares e Ticket Médio.
